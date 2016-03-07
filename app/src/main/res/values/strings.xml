@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">CalculadoraTM</string>
+    <string name="app_name">Calculator</string>
+    <string name="hint_n1">Number 1</string>
+    <string name="hint_n2">Number 2</string>
+    <string name="btn_sumar">Add</string>
+    <string name="btn_restar">Sub</string>
+    <string name="btn_mul">Mul</string>
+    <string name="btn_div">Div</string>
+    <string name="txt_resultado">00</string>
 </resources>

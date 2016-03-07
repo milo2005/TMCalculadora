@@ -14,7 +14,7 @@
         android:id="@+id/num1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Numero 1"
+        android:hint="@string/hint_n1"
         android:inputType="number"
         />
 
@@ -22,7 +22,7 @@
         android:id="@+id/num2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Numero 2"
+        android:hint="@string/hint_n2"
         android:inputType="number"
         />
 
@@ -35,29 +35,29 @@
 
         <Button
             android:id="@+id/sumar"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:text="Sumar"
+            android:layout_width="@dimen/btn_size"
+            android:layout_height="@dimen/btn_size"
+            android:text="@string/btn_sumar"
             />
 
         <Button
             android:id="@+id/restar"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:text="Restar"
+            android:layout_width="@dimen/btn_size"
+            android:layout_height="@dimen/btn_size"
+            android:text="@string/btn_restar"
             />
 
         <Button
             android:id="@+id/div"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:text="Div"
+            android:layout_width="@dimen/btn_size"
+            android:layout_height="@dimen/btn_size"
+            android:text="@string/btn_div"
             />
         <Button
             android:id="@+id/mul"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:text="Mul"
+            android:layout_width="@dimen/btn_size"
+            android:layout_height="@dimen/btn_size"
+            android:text="@string/btn_mul"
             />
 
     </LinearLayout>
@@ -66,9 +66,9 @@
         android:id="@+id/resultado"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="00"
+        android:text="@string/txt_resultado"
         android:gravity="center"
-        android:textSize="120sp"
+        android:textSize="@dimen/resultado_size"
         />
 
 
